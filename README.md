@@ -1,3 +1,5 @@
+The longest Compound word is dichlorodiphenyltrichloroethane
+
 I implemented a brute force method for the longest-compound problem
 
 Brute Force Method:
