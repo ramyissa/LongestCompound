@@ -3,7 +3,7 @@ I implemented a brute force method for the longest-compound problem
 Brute Force Method:
 
 - We check if all prefixes word[:x] are present for each word.
-- I Used sets to store all the words.
+- I used sets to store all the words.
 - Whenever we find a better word, we check for all the prefixes. 
 - Then we would replace our result.
 
