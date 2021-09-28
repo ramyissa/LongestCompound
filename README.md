@@ -1,4 +1,4 @@
-The longest compound word that my algorithm produces is now: cyclotrimethylenetrinitramine
+The longest compound word that my algorithm produces is now: cyclotrimethylenetrinitramine.
 I am aware that this is the wrong ouput as my first attempt had the correct output but the algorithm was flawed, it would not work when random letters were in the words. 
 But now i believe my code is more complete and correct even though the output is not exact.
 
