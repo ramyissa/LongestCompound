@@ -1,17 +1,15 @@
-The longest Compound word is dichlorodiphenyltrichloroethane
+The longest compound word that my algorithm produces is now: cyclotrimethylenetrinitramine
+I am aware that this is the wrong ouput as my first attempt had the correct output but the algorithm was flawed, it would not work when random letters were in the words. 
+But now i believe my code is more complete and correct even though the output is not exact.
 
-I implemented a brute force method for the longest-compound problem
+Brute Force Method with recursion
 
-Brute Force Method:
-
-- We check if all prefixes word[:x] are present for each word.
-- I used sets to store all the words.
-- Whenever we find a better word, we check for all the prefixes. 
-- Then we would replace our result.
-
-The algorithm goes as follows:
-- For every word in the text file we check if the length of the word is greater than the length of the current best. 
-- If this condition were to be met, we iterate through every substring possible to find the new best long compound word. 
+Sumarizing code, see code for in line comments in longestCompound.py
+-Iterating from 1 to length of the word
+-We keep adding a letter to build the substring
+-If we are the end of the word, we return True since it is the end of a word
+-We then recursively call longestCompound but now we pass one less letter into rhe recursion, 
+for example, we if the previously pass word was ramy, now we pass amy.
 
 The space complexity is O(w^2) to create subwords where w is word length
 The time complexity is O(w^2), where w is the word length
@@ -27,3 +25,4 @@ a depth first search from the top of the trie. You have to search nodes that wer
 the last letter of a word.So we would pronably have some boolean variable to help us with that. 
 The node that is found is a word with all the prefixes and we keep doing that and pick the best word.
 '''
+
